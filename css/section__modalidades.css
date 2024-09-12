@@ -6,10 +6,6 @@
   padding: 2%;
 }
 
-.btprime__modalidades__img img {
-  width: 85%;
-}
-
 .btprime__modalidades__img {
   max-width: 90%;
   margin: 4% auto 0 auto;
@@ -26,9 +22,16 @@
 }
 
 .btprime__modalidades__img__div p {
-  text-align: justify;
+  text-align: center;
   color: white;
   font-family: "Poppins", sans-serif;
+}
+
+.btprime__modalidades__img__div img {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  padding: 10%;
 }
 
 /*Responsividade da página até 414px*/
@@ -69,5 +72,17 @@
   .btprime__modalidades__img {
     display: grid;
     grid-template-columns: 45% 45%;
+  }
+}
+
+@media (min-width: 769px) {
+  .btprime__modalidade__carousel {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .btprime__modalidades__img {
+    display: none;
   }
 }
