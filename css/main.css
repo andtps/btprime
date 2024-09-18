@@ -3,6 +3,7 @@
 @import url(./section_filiais.css);
 @import url(./section__modalidades.css);
 @import url(./section_about.css);
+@import url(./estrutura.css);
 
 * {
   padding: 0;
@@ -83,6 +84,10 @@ div {
 
 main {
   background-color: black;
+}
+
+span {
+  color: yellow;
 }
 
 /*Responsividade da página até 414px*/

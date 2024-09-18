@@ -1,3 +1,5 @@
+@import url(./main.css);
+
 .btprime__about {
   position: relative;
   background-image: url(../img/ImageAbout2.jpg);
@@ -28,13 +30,13 @@
   font-family: "Bebas Neue", sans-serif;
   z-index: 1;
   position: relative;
-}
-
-.btprime__about span {
-  color: yellow;
+  padding: 10px;
 }
 
 @media (max-width: 414px) {
+  .btprime__about p {
+    font-size: 45px;
+  }
 }
 
 @media (min-width: 415px) and (max-width: 768px) {

@@ -1,0 +1,41 @@
+@import url(./main.css);
+
+video {
+  height: 75vh;
+  border: 4px yellow solid;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.btprime__videos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btprime__estrutura__tittle h2 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
+  font-size: 60px;
+  padding: 2%;
+}
+
+/*Responsividade da página até 414px*/
+
+@media (max-width: 414px) {
+  .estrutura__video:nth-child(2),
+  .estrutura__video:nth-child(3) {
+    display: none;
+  }
+
+  .btprime__estrutura__tittle h2 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 415px) and (max-width: 768px) {
+  .estrutura__video:nth-child(2),
+  .estrutura__video:nth-child(3) {
+    display: none;
+  }
+}
